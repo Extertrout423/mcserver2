@@ -1,0 +1,22 @@
+log-level: info
+port: 19132
+server-ip: 0.0.0.0
+level-name: world
+worlds:
+  world:
+    generator: overworld
+    provider: LevelDB
+    seed: 7893160225150626
+max-players: 20
+gamemode: survival
+motd: Another JSPrismarine server!
+view-distance: 10
+online-mode: true
+enable-eval: false
+enable-telemetry: true
+telemetry-urls:
+  - https://telemetry.prismarine.dev
+packet-compression-level: 7
+experimental-flags: []
+update-repo: JSPrismarine/JSPrismarine
+update-channel: release
